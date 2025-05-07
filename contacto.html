@@ -1,22 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - X-Madrid</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- CONTACTO -->
-<h2>CONTACTO</h2>
-<form>
-  <p><label>Nombre: <input type="text" required></label></p>
-  <p><label>Apellidos: <input type="text" required></label></p>
-  <p><label>Dirección: <input type="text" required></label></p>
-  <p><label>Email: <input type="email" id="email" required></label></p>
-  <p><label>Confirmar Email: <input type="email" id="confirmar-email" required></label></p>
-  <p><label>Teléfono: <input type="tel" required></label></p>
-  <p><label>Comentarios: <textarea required></textarea></label></p>
-  <p><button type="submit">Enviar</button></p>
-</form>
+  <main class="contacto-container">
+    <h2>Contacto</h2>
+    <form class="formulario-contacto">
+      <div class="campo">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+      </div>
+      <div class="campo">
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required />
+      </div>
+      <div class="campo">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required />
+      </div>
+      <div class="campo">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="campo">
+        <label for="confirmar-email">Confirmar Email:</label>
+        <input type="email" id="confirmar-email" name="confirmar-email" required />
+      </div>
+      <div class="campo">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required />
+      </div>
+      <div class="campo">
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+      </div>
+      <div class="campo enviar">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </main>
 </body>
 </html>

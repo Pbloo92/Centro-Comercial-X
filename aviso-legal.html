@@ -6,15 +6,80 @@
     <title>Aviso-Legal</title>
 </head>
 <body>
-  <!-- AVISO LEGAL -->
-<h2>AVISO LEGAL</h2>
-<h3>Identificación de la empresa</h3>
-<p>X-Madrid S.A., CIF: X1234567X, Calle Oslo, 53, 28922 Alcorcón</p>
-<h3>Condiciones de uso</h3>
-<p>El usuario se compromete a hacer un uso adecuado del sitio web.</p>
-<h3>Derechos de autor</h3>
-<p>Todos los contenidos están protegidos por derechos de propiedad intelectual.</p>
-<h3>Protección de datos</h3>
-<p>Los datos personales recogidos serán tratados conforme al RGPD.</p>  
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <title>Aviso Legal - X-Madrid</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body class="p-4">
+  
+      <h1 class="mb-4">Aviso Legal - Centro Comercial X-Madrid</h1>
+  
+      <div class="accordion" id="avisoLegalAccordion">
+  
+          <!-- Identificación de la empresa -->
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEmpresa">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEmpresa" aria-expanded="true" aria-controls="collapseEmpresa">
+                      Identificación de la empresa
+                  </button>
+              </h2>
+              <div id="collapseEmpresa" class="accordion-collapse collapse show" aria-labelledby="headingEmpresa" data-bs-parent="#avisoLegalAccordion">
+                  <div class="accordion-body">
+                      X-Madrid es una marca registrada propiedad de MERLIN Properties SOCIMI, S.A., con domicilio en Calle Chamartín, 18, 28036 Madrid, CIF: A-12345678. Para cualquier consulta puede contactar a través del correo info@x-madrid.com.
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Condiciones de uso -->
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingCondiciones">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCondiciones" aria-expanded="false" aria-controls="collapseCondiciones">
+                      Condiciones de uso
+                  </button>
+              </h2>
+              <div id="collapseCondiciones" class="accordion-collapse collapse" aria-labelledby="headingCondiciones" data-bs-parent="#avisoLegalAccordion">
+                  <div class="accordion-body">
+                      El acceso y uso de este sitio web implica la aceptación de los términos establecidos. Queda prohibido el uso con fines ilícitos o que dañen la imagen o los derechos de X-Madrid o terceros.
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Derechos de autor -->
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingDerechos">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDerechos" aria-expanded="false" aria-controls="collapseDerechos">
+                      Derechos de autor
+                  </button>
+              </h2>
+              <div id="collapseDerechos" class="accordion-collapse collapse" aria-labelledby="headingDerechos" data-bs-parent="#avisoLegalAccordion">
+                  <div class="accordion-body">
+                      Todos los contenidos de este sitio web, incluidos textos, imágenes, diseños, logotipos y software, están protegidos por los derechos de propiedad intelectual y pertenecen a sus respectivos titulares. Queda prohibida su reproducción sin autorización.
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Protección de datos -->
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingProteccion">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProteccion" aria-expanded="false" aria-controls="collapseProteccion">
+                      Protección de datos
+                  </button>
+              </h2>
+              <div id="collapseProteccion" class="accordion-collapse collapse" aria-labelledby="headingProteccion" data-bs-parent="#avisoLegalAccordion">
+                  <div class="accordion-body">
+                      Los datos personales recogidos serán tratados conforme al Reglamento General de Protección de Datos (RGPD). El usuario podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición contactando a través de info@x-madrid.com.
+                  </div>
+              </div>
+          </div>
+  
+      </div>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
+   
 </body>
 </html>

@@ -1,0 +1,39 @@
+[
+    {
+      "titulo": "Dune: Parte 2",
+      "descripcion": "La lucha por el desierto continúa en esta épica secuela de ciencia ficción.",
+      "cartel": "dune2.jpg",
+      "enlace": "https://www.cinesa.es/dune"
+    },
+    {
+      "titulo": "Kung Fu Panda 4",
+      "descripcion": "Po regresa con más aventuras, humor y acción para toda la familia.",
+      "cartel": "kfp4.jpg",
+      "enlace": "https://www.cinesa.es/kungfupanda"
+    },
+    {
+      "titulo": "Godzilla x Kong",
+      "descripcion": "Dos titanes se enfrentan a una nueva amenaza en esta espectacular entrega.",
+      "cartel": "gxk.jpg",
+      "enlace": "https://www.cinesa.es/godzillakong"
+    },
+    {
+      "titulo": "Oppenheimer",
+      "descripcion": "Un drama biográfico sobre el creador de la bomba atómica, dirigido por Nolan.",
+      "cartel": "oppenheimer.jpg",
+      "enlace": "https://www.cinesa.es/oppenheimer"
+    },
+    {
+      "titulo": "Los Juegos del Hambre: Balada de Pájaros Cantores",
+      "descripcion": "La precuela de la exitosa saga nos lleva al origen del Capitolio.",
+      "cartel": "hambre.jpg",
+      "enlace": "https://www.cinesa.es/juegosdelhambre"
+    },
+    {
+      "titulo": "Wonka",
+      "descripcion": "Descubre los orígenes del famoso chocolatero en esta mágica historia.",
+      "cartel": "wonka.jpg",
+      "enlace": "https://www.cinesa.es/wonka"
+    }
+  ]
+  

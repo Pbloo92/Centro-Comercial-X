@@ -4,39 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiendas</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <!-- TIENDAS -->
-    <h2>TIENDAS</h2>
+    <h2>TIENDAS</h2> 
 
-    <div>
-        <img src="mango.png" alt="Mango" width="100">
-        <p>Mango: Moda contemporánea para hombre y mujer con estilo urbano.</p>
-    </div>
+<div class="store" onclick="openModal('mangoModal')">
+    <img src="mango.png" alt="Mango" width="300">
+</div>
 
-    <div>
-        <img src="GRMY.webp" alt="GRMY" width="100">
-        <p>GRMY: Ropa urbana con influencias del hip hop y la cultura callejera.</p>
-    </div>
+<div class="store" onclick="openModal('grmyModal')">
+    <img src="GRMY.webp" alt="GRMY" width="300">
+</div>
 
-    <div>
-        <img src="Women'Secret.jpg" alt="Women'Secret" width="100">
-        <p>Women'secret: Lencería, ropa interior y pijamas diseñados para mujeres modernas.</p>
-    </div>
+<div class="store" onclick="openModal('wsecretModal')">
+    <img src="Women'Secret.jpg" alt="Women'secret" width="300">
+</div>
 
-    <div>
-        <img src="Jack&Jones.png" alt="Jack&Jones" width="100">
-        <p>Jack & Jones: Moda masculina con un toque casual y juvenil.</p>
-    </div>
+<div class="store" onclick="openModal('jackJonesModal')">
+    <img src="Jack&Jones.png" alt="Jack & Jones" width="300">
+</div>
 
-    <div>
-        <img src="Ducati.png" alt="Ducati" width="100">
-        <p>Ducati: Estilo deportivo y elegante inspirado en el mundo del motociclismo.</p>
-    </div>
+<div class="store" onclick="openModal('ducatiModal')">
+    <img src="Ducati.png" alt="Ducati" width="300">
+</div>
 
-    <div>
-        <img src="Druni.jpg" alt="Druni" width="100">
-        <p>Druni: Perfumería y cosmética con las mejores marcas de belleza.</p>
+<div class="store" onclick="openModal('druniModal')">
+    <img src="Druni.jpg" alt="Druni" width="300">
+</div>
+
+<!-- Modales -->
+
+<div id="mangoModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('mangoModal')">&times;</span>
+        <img src="mango.png" alt="Mango" width="300">
+        <h3>Mango</h3>
+        <p>Moda contemporánea para hombre y mujer con estilo urbano. Explora colecciones versátiles y modernas.</p>
+        <a href="https://shop.mango.com" target="_blank">Visitar sitio oficial</a>
     </div>
+</div>
+
+<div id="grmyModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('grmyModal')">&times;</span>
+        <img src="GRMY.webp" alt="GRMY" width="300">
+        <h3>GRMY</h3>
+        <p>Ropa urbana con influencias del hip hop y la cultura callejera. Ideal para los amantes del streetwear.</p>
+        <a href="https://grimeyofficial.com" target="_blank">Visitar sitio oficial</a>
+    </div>
+</div>
+
+<div id="wsecretModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('wsecretModal')">&times;</span>
+        <img src="Women'Secret.jpg" alt="Women'secret" width="300">
+        <h3>Women'secret</h3>
+        <p>Lencería, ropa interior y pijamas pensados para mujeres modernas que buscan comodidad y estilo.</p>
+        <a href="https://www.womensecret.com" target="_blank">Visitar sitio oficial</a>
+    </div>
+</div>
+
+<div id="jackJonesModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('jackJonesModal')">&times;</span>
+        <img src="Jack&Jones.png" alt="Jack & Jones" width="300">
+        <h3>Jack & Jones</h3>
+        <p>Moda masculina juvenil con prendas casuales, denim y estilo desenfadado.</p>
+        <a href="https://www.jackjones.com" target="_blank">Visitar sitio oficial</a>
+    </div>
+</div>
+
+<div id="ducatiModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('ducatiModal')">&times;</span>
+        <img src="Ducati.png" alt="Ducati" width="300">
+        <h3>Ducati</h3>
+        <p>Estilo deportivo y elegante con la esencia del motociclismo italiano. Moda y accesorios Ducati.</p>
+        <a href="https://www.ducati.com" target="_blank">Visitar sitio oficial</a>
+    </div>
+</div>
+
+<div id="druniModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('druniModal')">&times;</span>
+        <img src="Druni.jpg" alt="Druni" width="300">
+        <h3>Druni</h3>
+        <p>Perfumería, cosmética y productos de belleza de las mejores marcas internacionales.</p>
+        <a href="https://www.druni.es" target="_blank">Visitar sitio oficial</a>
+    </div>
+</div>
+
+    <script src="script.js"></script>
 </body>
 </html>

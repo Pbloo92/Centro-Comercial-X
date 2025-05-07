@@ -4,19 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ocio</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <h2>OCIO</h2>
 
-    <img src="Surf.jpg" alt="Honna Surf Hub" width="100">
-    <p>Honna Surf Hub es un centro de surf con clases, alquiler de equipos y más. Ideal para los amantes del mar y la adrenalina.</p>
+<div class="store" onclick="openModal('surfModal')">
+    <img src="Surf.jpg" alt="Honna Surf Hub" width="300">
+</div>
 
+<div class="store" onclick="openModal('ongravityModal')">
+    <img src="Ongravity.png" alt="Ongravity" width="300">
+</div>
 
-    <img src="Ongravity.png" alt="Ongravity" width="100">
-    <p>Ongravity es un centro de entrenamiento freestyle con instalaciones de parkour, trampolines, skate y más.</p>
+<div class="store" onclick="openModal('ozoneModal')">
+    <img src="Ozone.jpg" alt="Ozone" width="300">
+</div>
 
+<!-- MODALES CON IFRAME -->
 
-    <img src="Ozone.jpg" alt="Ozone" width="100">
-    <p>Ozone es un parque de trampolines para saltar, jugar y entrenar. Diversión para todas las edades.</p>
+<div id="surfModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('surfModal')">&times;</span>
+        <h3>Honna Surf Hub</h3>
+        <iframe width="100%" height="250" src="https://youtu.be/1q-nhGzswME?feature=shared" title="Honna Surf Hub" frameborder="0" allowfullscreen></iframe>
+        <p>Centro de surf con clases para todos los niveles, alquiler de equipos, y un ambiente vibrante y enérgico. Perfecto para amantes del mar y la adrenalina.</p>
+        <a href="https://www.honnasurfhub.com" target="_blank">Visitar sitio oficial</a>
+    </div>
+</div>
+
+<div id="ongravityModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('ongravityModal')">&times;</span>
+        <h3>Ongravity</h3>
+        <iframe width="100%" height="250" src="https://youtu.be/pVqS7z1G4BI?feature=shared" title="Ongravity Madrid" frameborder="0" allowfullscreen></iframe>
+        <p>Instalaciones de freestyle indoor con parkour, trampolines, skate y más. Ideal para entrenar, divertirse o aprender deportes urbanos.</p>
+        <a href="https://www.ongravity.com" target="_blank">Visitar sitio oficial</a>
+    </div>
+</div>
+
+<div id="ozoneModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('ozoneModal')">&times;</span>
+        <h3>Ozone</h3>
+        <iframe width="100%" height="250" src="https://youtu.be/XICA2bUs23w?feature=shared" title="Ozone Trampoline Park" frameborder="0" allowfullscreen></iframe>
+        <p>Parque de trampolines con áreas para juegos, saltos y entrenamientos. Actividades para todas las edades y niveles de habilidad.</p>
+        <a href="https://ozoneparques.com" target="_blank">Visitar sitio oficial</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
