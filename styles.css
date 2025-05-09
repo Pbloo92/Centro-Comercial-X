@@ -8,7 +8,6 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: white;
-    text-align: center;
   }
   
   .store img {
@@ -17,6 +16,7 @@
     height: auto;
     display: block;
     border-radius: 12px;
+    text-align: center;
   }
   
   .store:hover {
