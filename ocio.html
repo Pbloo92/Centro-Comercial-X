@@ -6,75 +6,60 @@
   <title>Ocio - X-Madrid</title>
 
   <!-- Google Fonts -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Malayalam:wght@100..900&family=Sansation:wght@300;400;700&family=Tauri&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo2.webp" type="image/webp" />
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-  <header class="text-center py-4">
+  <header class="text-center py-4 bg-light">
     <h1 class="mb-0">OCIO</h1>
   </header>
 
   <main class="container my-5">
-    <section aria-labelledby="titulo-ocio">
-      
+    <section class="row row-cols-1 row-cols-md-3 g-4">
 
-      <div class="row g-4 justify-content-center">
-        
-        <!-- Surf -->
-        <article class="col-12 col-sm-6 col-lg-4 text-center">
-          <figure>
-            <img src="Surf.jpg" alt="Honna Surf Hub" class="img-fluid rounded shadow" data-bs-toggle="modal" data-bs-target="#surfModal" role="button" />
-            <figcaption class="mt-2">Honna Surf Hub</figcaption>
-            <iframe src="videoSurf.mp4" title="Honna Surf Hub" allowfullscreen></iframe>
-          </div>
+      <!-- Ocio 1 -->
+      <div class="col">
+        <div class="card h-100 text-center p-3">
+          <img src="Surf.jpg" alt="Honna Surf Hub" class="img-fluid logo mx-auto mb-2" />
+          <h5 class="fw-semibold">Honna Surf Hub</h5>
           <p>Centro de surf con clases para todos los niveles, alquiler de equipos, y un ambiente vibrante y enérgico. Perfecto para amantes del mar y la adrenalina.</p>
-          <a href="https://www.honnasurfhub.com" target="_blank" rel="noopener noreferrer">Visitar sitio oficial</a>
-
-          </figure>
-        </article>
-
-        <!-- Ongravity -->
-        <article class="col-12 col-sm-6 col-lg-4 text-center">
-          <figure>
-            <img src="Ongravity.png" alt="Ongravity" class="img-fluid rounded shadow" data-bs-toggle="modal" data-bs-target="#ongravityModal" role="button" />
-            <figcaption class="mt-2">Ongravity</figcaption>
-             <iframe src="videoOngravity.mp4" title="Ongravity Madrid" allowfullscreen></iframe>
-          </div>
-          <p>Instalaciones de freestyle indoor con parkour, trampolines, skate y más. Ideal para entrenar, divertirse o aprender deportes urbanos.</p>
-          <a href="https://www.ongravity.com" target="_blank" rel="noopener noreferrer">Visitar sitio oficial</a>
-
-          </figure>
-        </article>
-
-        <!-- Ozone -->
-        <article class="col-12 col-sm-6 col-lg-4 text-center">
-          <figure>
-            <img src="Ozone.jpg" alt="Ozone" class="img-fluid rounded shadow" data-bs-toggle="modal" data-bs-target="#ozoneModal" role="button" />
-            <figcaption class="mt-2">Ozone</figcaption>
-             <iframe src="videoOzone.mp4" title="Ozone Trampoline Park" allowfullscreen></iframe>
-          </div>
-          <p>Parque de trampolines con áreas para juegos, saltos y entrenamientos. Actividades para todas las edades y niveles de habilidad.</p>
-          <a href="https://ozoneparques.com" target="_blank" rel="noopener noreferrer">Visitar sitio oficial</a>
-
-          </figure>
-        </article>
+          <a href="https://www.honnasurfhub.com" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
+          <iframe src="videoSurf.mp4" title="Honna Surf Hub" allowfullscreen></iframe>
+        </div>
       </div>
+
+      <!-- Ocio 2 -->
+      <div class="col">
+        <div class="card h-100 text-center p-3">
+          <img src="Ongravity.png" alt="Ongravity" class="img-fluid logo mx-auto mb-2" />
+          <h5 class="fw-semibold">Ongravity</h5>
+          <p>Instalaciones de freestyle indoor con parkour, trampolines, skate y más. Ideal para entrenar, divertirse o aprender deportes urbanos.</p>
+          <a href="https://www.ongravity.com" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
+          <iframe src="videoOngravity.mp4" title="Ongravity Madrid" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Ocio 3 -->
+      <div class="col">
+        <div class="card h-100 text-center p-3">
+          <img src="Ozone.jpg" alt="Ozone" class="img-fluid logo mx-auto mb-2" />
+          <h5 class="fw-semibold">Ozone</h5>
+          <p>Parque de trampolines con áreas para juegos, saltos y entrenamientos. Actividades para todas las edades y niveles de habilidad.</p>
+          <a href="https://ozoneparques.com" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
+          <iframe src="videoOzone.mp4" title="Ozone Trampoline Park" allowfullscreen></iframe>
+        </div>
+      </div>
+
     </section>
   </main>
 
-
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
-
