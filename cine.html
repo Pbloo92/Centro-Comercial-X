@@ -15,13 +15,11 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <header class="container py-4">
+</head> 
+ <header class="container py-4">
   <div class="row align-items-center">
     <div class="col-2 text-start">
-      <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-75" />
+      <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-50" />
     </div>
     <div class="col-8 text-center">
       <h1 class="mb-0">CINE</h1>
@@ -30,41 +28,94 @@
   </div>
 </header>
 
+<body>
+
+
 <main class="container py-4">
-  <section class="mb-4">
-    <h2><i class="fa-solid fa-clock"></i> Horarios</h2>
-    <p>Lunes a domingo: 11:30 - 00:30</p>
-  </section>
 
-  <section class="mb-4">
-    <h2><i class="fa-solid fa-location-dot"></i> Situación</h2>
-    <p>Planta baja del centro comercial, zona ocio.</p>
-  </section>
+  <!-- Fila 1: Horarios y Situación -->
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <section>
+        <h2><i class="fa-solid fa-clock"></i> Horarios</h2>
+        <p>Lunes a domingo: 11:30 - 00:30</p>
+      </section>
+    </div>
+    <div class="col-md-6">
+      <section>
+        <h2><i class="fa-solid fa-location-dot"></i> Situación</h2>
+        <p>Planta baja del centro comercial, zona ocio.</p>
+      </section>
+    </div>
+  </div>
 
-  <section class="mb-4">
-    <h2><i class="fa-solid fa-door-open"></i> Salas</h2>
-    <ul>
-      <li>8 salas equipadas con tecnología 4K y sonido Dolby Atmos</li>
-      <li>1 sala VIP con butacas reclinables</li>
-      <li>1 sala infantil con juegos</li>
-    </ul>
-  </section>
+  <!-- Fila 2: Salas y Cafetería -->
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <section>
+        <h2><i class="fa-solid fa-door-open"></i> Salas</h2>
+        <ul>
+          <li>8 salas equipadas con tecnología 4K y sonido Dolby Atmos</li>
+          <li>1 sala VIP con butacas reclinables</li>
+          <li>1 sala infantil con juegos</li>
+        </ul>
+      </section>
+    </div>
+    <div class="col-md-6">
+      <section>
+        <h2><i class="fa-solid fa-mug-hot"></i> Cafetería</h2>
+        <p>Disfruta de snacks, palomitas, bebidas y opciones sin gluten en nuestro bar antes o después de la película.</p>
+      </section>
+    </div>
+  </div>
 
-  <section class="mb-4">
-    <h2><i class="fa-solid fa-mug-hot"></i> Cafetería</h2>
-    <p>Disfruta de snacks, palomitas, bebidas y opciones sin gluten en nuestro bar antes o después de la película.</p>
-  </section>
 
-  <section class="mb-5">
+
+  <!-- Cartelera -->
+  <section class="mb-5 ">
+    <h2><i class="fa-solid fa-clapperboard"></i> Cartelera</h2>
+      <!-- Hcer cartelera aqui -->
+    <ul id="cartelera"></ul>
+  <!-- Botón Entradas -->
+  <section class="mb-5 ">
     <a class="btn btn-primary" href="https://www.cinesa.es" target="_blank">
       <i class="fa-solid fa-ticket"></i> Comprar entradas
     </a>
   </section>
 
-  <section>
-    <h2><i class="fa-solid fa-clapperboard"></i> Cartelera</h2>
-    <div id="cartelera" class="row gy-4"></div>
-  </section>
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Actividades</h2>
+    <div id="contenedorTarjetas" class="row row-cols-1 row-cols-md-3 g-4"></div>
+  </div>
+
+  <!-- Inserta el JSON directamente como una variable -->
+  <script>
+    const datos = [
+      { "nombre": "X-Madrid", "ubicacion": "Alcorcón", "actividad": "Cine" },
+      { "nombre": "X-Madrid", "ubicacion": "Alcorcón", "actividad": "Surf indoor" },
+      { "nombre": "X-Madrid", "ubicacion": "Alcorcón", "actividad": "Escalada" }
+    ];
+
+    const contenedor = document.getElementById("contenedorTarjetas");
+
+    datos.forEach(item => {
+      const tarjeta = document.createElement("div");
+      tarjeta.className = "col";
+      tarjeta.innerHTML = `
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">${item.actividad}</h5>
+            <p class="card-text">
+              <strong>Lugar:</strong> ${item.nombre}<br>
+              <strong>Ubicación:</strong> ${item.ubicacion}
+            </p>
+          </div>
+        </div>
+      `;
+      contenedor.appendChild(tarjeta);
+    });
+  </script>
+</main>
 
 
 

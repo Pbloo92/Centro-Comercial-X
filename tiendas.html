@@ -16,77 +16,164 @@
   <!-- Favicon -->
   <link rel="icon" href="logo2.webp" type="image/webp" />
 </head>
+ <header class="container py-4">
+  <div class="row align-items-center">
+    <div class="col-2 text-start">
+      <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-50" />
+    </div>
+    <div class="col-8 text-center">
+      <h1 class="mb-0">TIENDAS</h1>
+    </div>
+    <div class="col-2"></div> <!-- Espacio vacío para equilibrar -->
+  </div>
+</header>
 <body>
-  <header class="text-center py-4 bg-light">
-    <h1 class="mb-0">TIENDAS</h1>
-  </header>
+
 
   <main class="container my-5">
     <section class="row row-cols-1 row-cols-md-3 g-4">
 
       <!-- Tienda 1 -->
       <div class="col">
-        <div class="card h-100 text-center p-3">
-          <img src="mango.png" alt="Mango" class="img-fluid w-50 d-block mx-auto mb-2" />
-          <h5 class="fw-semibold">Mango</h5>
-          <p>Moda contemporánea para hombre y mujer con estilo urbano. Explora colecciones versátiles y modernas.</p>
-          <a href="https://shop.mango.com" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
-          <img src="tiendaMango.png" alt="Tienda Mango" class="img-fluid rounded" />
+        <div class="shadow p-3 rounded h-100 text-center p-3">
+          <img src="mango.png" alt="Mango" class="img-fluid w-50 d-block mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalMango" />
+        </div>
+      </div>
+
+      <!-- Modal Tienda 1 -->
+      <div class="modal fade" id="modalMango" tabindex="-1" aria-labelledby="modalMangoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalMangoLabel">Mango</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="tiendaMango.png" alt="Tienda Mango" class="img-fluid w-25 d-block mx-auto mb-3" />
+              <p>Moda contemporánea para hombre y mujer con estilo urbano. Explora colecciones versátiles y modernas para cada ocasión. Mango ofrece ropa de alta calidad con un toque de elegancia urbana.</p>
+              <a href="https://shop.mango.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Tienda 2 -->
       <div class="col">
-        <div class="card h-100 text-center p-3">
-          <img src="GRMY.webp" alt="GRMY" class="img-fluid w-50 d-block mx-auto mb-2" />
-          <h5 class="fw-semibold">GRMY</h5>
-          <p>Ropa urbana con influencias del hip hop y la cultura callejera. Ideal para los amantes del streetwear.</p>
-          <a href="https://grimeyofficial.com" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
-          <img src="tiendaGRMY.webp" alt="Tienda GRMY" class="img-fluid rounded" />
+        <div class="shadow p-3 rounded h-100 text-center p-3">
+          <img src="GRMY.webp" alt="GRMY" class="img-fluid w-50 d-block mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalGRMY" />
+        </div>
+      </div>
+
+      <!-- Modal Tienda 2 -->
+      <div class="modal fade" id="modalGRMY" tabindex="-1" aria-labelledby="modalGRMYLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalGRMYLabel">GRMY</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="tiendaGRMY.webp" alt="Tienda GRMY" class="img-fluid w-25 d-block mx-auto mb-3" />
+              <p>Ropa urbana con influencias del hip hop y la cultura callejera. Ideal para los amantes del streetwear y aquellos que buscan una moda rebelde y única. Encuentra lo último en tendencias urbanas.</p>
+              <a href="https://grimeyofficial.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Tienda 3 -->
       <div class="col">
-        <div class="card h-100 text-center p-3">
-          <img src="Women'Secret.jpg" alt="Women'secret" class="img-fluid w-50 d-block mx-auto mb-2" />
-          <h5 class="fw-semibold">Women'secret</h5>
-          <p>Lencería, ropa interior y pijamas pensados para mujeres modernas que buscan comodidad y estilo.</p>
-          <a href="https://www.womensecret.com" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
-          <img src="tiendaWomensSecret.avif" alt="Tienda Women'secret" class="img-fluid rounded" />
+        <div class="shadow p-3 rounded h-100 text-center p-3">
+          <img src="Women'Secret.jpg" alt="Women'secret" class="img-fluid w-50 d-block mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalWomensSecret" />
+        </div>
+      </div>
+
+      <!-- Modal Tienda 3 -->
+      <div class="modal fade" id="modalWomensSecret" tabindex="-1" aria-labelledby="modalWomensSecretLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalWomensSecretLabel">Women'secret</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="tiendaWomensSecret.avif" alt="Tienda Women'secret" class="img-fluid w-25 d-block mx-auto mb-3" />
+              <p>Lencería, ropa interior y pijamas pensados para mujeres modernas que buscan comodidad y estilo. Encuentra el equilibrio perfecto entre confort y diseño elegante para todas las ocasiones.</p>
+              <a href="https://www.womensecret.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Tienda 4 -->
       <div class="col">
-        <div class="card h-100 text-center p-3">
-          <img src="Jack&Jones.png" alt="Jack & Jones" class="img-fluid w-50 d-block mx-auto mb-2" />
-          <h5 class="fw-semibold">Jack & Jones</h5>
-          <p>Moda masculina juvenil con prendas casuales, denim y estilo desenfadado.</p>
-          <a href="https://www.jackjones.com" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
-          <img src="tiendaJ&J.jpg" alt="Tienda Jack & Jones" class="img-fluid rounded" />
+        <div class="shadow p-3 rounded h-100 text-center p-3">
+          <img src="Jack&Jones.png" alt="Jack & Jones" class="img-fluid w-50 d-block mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalJackJones" />
+        </div>
+      </div>
+
+      <!-- Modal Tienda 4 -->
+      <div class="modal fade" id="modalJackJones" tabindex="-1" aria-labelledby="modalJackJonesLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalJackJonesLabel">Jack & Jones</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="tiendaJ&J.jpg" alt="Tienda Jack & Jones" class="img-fluid w-25 d-block mx-auto mb-3" />
+              <p>Moda masculina juvenil con prendas casuales, denim y estilo desenfadado. Encuentra todo lo necesario para tu día a día, desde lo más cómodo hasta lo más estiloso, todo con la calidad de Jack & Jones.</p>
+              <a href="https://www.jackjones.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Tienda 5 -->
       <div class="col">
-        <div class="card h-100 text-center p-3">
-          <img src="Ducati.png" alt="Ducati" class="img-fluid w-50 d-block mx-auto mb-2" />
-          <h5 class="fw-semibold">Ducati</h5>
-          <p>Estilo deportivo y elegante con la esencia del motociclismo italiano. Moda y accesorios Ducati.</p>
-          <a href="https://www.ducati.com" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
-          <img src="tiendaDucati.jpg" alt="Tienda Ducati" class="img-fluid rounded" />
+        <div class="shadow p-3 rounded h-100 text-center p-3">
+          <img src="Ducati.png" alt="Ducati" class="img-fluid w-50 d-block mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalDucati" />
+        </div>
+      </div>
+
+      <!-- Modal Tienda 5 -->
+      <div class="modal fade" id="modalDucati" tabindex="-1" aria-labelledby="modalDucatiLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalDucatiLabel">Ducati</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="tiendaDucati.jpg" alt="Tienda Ducati" class="img-fluid w-25 d-block mx-auto mb-3" />
+              <p>Estilo deportivo y elegante con la esencia del motociclismo italiano. Ducati ofrece moda y accesorios para quienes buscan un estilo de vida dinámico y audaz, con el sello de la marca más reconocida en motos.</p>
+              <a href="https://www.ducati.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Tienda 6 -->
       <div class="col">
-        <div class="card h-100 text-center p-3">
-          <img src="Druni.jpg" alt="Druni" class="img-fluid w-50 d-block mx-auto mb-2" />
-          <h5 class="fw-semibold">Druni</h5>
-          <p>Perfumería, cosmética y productos de belleza de las mejores marcas internacionales.</p>
-          <a href="https://www.druni.es" target="_blank" class="btn btn-outline-primary mb-3">Visitar sitio oficial</a>
-          <img src="tiendaDruni.webp" alt="Tienda Druni" class="img-fluid rounded" />
+        <div class="shadow p-3 rounded h-100 text-center p-3">
+          <img src="Druni.jpg" alt="Druni" class="img-fluid w-50 d-block mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalDruni" />
+        </div>
+      </div>
+
+      <!-- Modal Tienda 6 -->
+      <div class="modal fade" id="modalDruni" tabindex="-1" aria-labelledby="modalDruniLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalDruniLabel">Druni</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="tiendaDruni.webp" alt="Tienda Druni" class="img-fluid w-25 d-block mx-auto mb-3" />
+              <p>Perfumería, cosmética y productos de belleza de las mejores marcas internacionales. Druni ofrece una amplia gama de productos para el cuidado personal y el bienestar de la piel y el cabello.</p>
+              <a href="https://www.druni.es" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+            </div>
+          </div>
         </div>
       </div>
 
