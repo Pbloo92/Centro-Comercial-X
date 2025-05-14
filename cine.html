@@ -16,22 +16,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head> 
- <header class="container py-4">
-  <div class="row align-items-center">
-    <div class="col-2 text-start">
-      <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-50" />
+
+<header class="bg-black py-4">
+    <div class="row align-items-center">
+      <div class="col-2 text-end"> <!-- Usamos text-end para alinear a la derecha -->
+        <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-50" />
+      </div>
+      <div class="col-8 text-center">
+        <h1 class="mb-0 text-danger fw-bold">CINE</h1>
+      </div>
+      <div class="col-2"></div> <!-- Espacio vacío para equilibrar -->
     </div>
-    <div class="col-8 text-center">
-      <h1 class="mb-0">CINE</h1>
-    </div>
-    <div class="col-2"></div> <!-- Espacio vacío para equilibrar -->
-  </div>
 </header>
 
-<body>
+<body class="bg-dark">
 
 
-<main class="container py-4">
+<main class="container py-4 text-white">
 
   <!-- Fila 1: Horarios y Situación -->
   <div class="row mb-4">
@@ -78,7 +79,7 @@
     <ul id="cartelera"></ul>
   <!-- Botón Entradas -->
   <section class="mb-5 ">
-    <a class="btn btn-primary" href="https://www.cinesa.es" target="_blank">
+    <a class="btn btn-danger" href="https://www.cinesa.es" target="_blank">
       <i class="fa-solid fa-ticket"></i> Comprar entradas
     </a>
   </section>
@@ -118,7 +119,7 @@
 </main>
 
  <!-- footer -->
- <footer class="bg-dark text-danger text-center py-3 mt-5">
+ <footer class="bg-black text-danger text-center py-3 mt-5">
   <p>&copy; 2025 X-Madrid. Todos los derechos reservados.</p>
     <p>Síguenos en nuestras redes sociales:</p>
     <a href="https://x.com/xmadrid6" target="_blank" class="text-danger mx-2">Twitter</a>

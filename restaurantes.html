@@ -16,30 +16,32 @@
   <!-- Favicon -->
   <link rel="icon" href="logo2.webp" type="image/webp" />
 </head>
-<header class="container py-4">
-  <div class="row align-items-center">
-    <div class="col-2 text-start">
-      <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-50" />
-    </div>
-    <div class="col-8 text-center">
-      <h1 class="mb-0">RESTAURANTES</h1>
-    </div>
-    <div class="col-2"></div> <!-- Espacio vacío para equilibrar -->
-  </div>
-</header>
-<body>
 
+<header class="bg-black py-4">
+    <div class="row align-items-center">
+      <div class="col-2 text-end"> <!-- Usamos text-end para alinear a la derecha -->
+        <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-50" />
+      </div>
+      <div class="col-8 text-center">
+        <h1 class="mb-0 text-danger fw-bold">RESTAURANTES</h1>
+      </div>
+      <div class="col-2"></div> <!-- Espacio vacío para equilibrar -->
+    </div>
+</header>
+
+<body class="bg-dark">
+
+  
 
   <main class="container my-5">
     <section class="row row-cols-1 row-cols-md-3 g-4">
 
       <!-- Restaurante 1 -->
       <div class="col">
-  <div class="d-flex justify-content-center align-items-center shadow p-3 rounded h-100" style="height: 200px;">
-    <img src="CarlsJr.png" alt="Carl's Jr." class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalCarlsJr" />
-  </div>
-</div>
-
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
+          <img src="CarlsJr.png" alt="Carl's Jr." class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalCarlsJr" />
+        </div>
+      </div>
 
       <!-- Modal Restaurante 1 -->
       <div class="modal fade" id="modalCarlsJr" tabindex="-1" aria-labelledby="modalCarlsJrLabel" aria-hidden="true">
@@ -52,7 +54,7 @@
             <div class="modal-body">
               <img src="tiendaCarlsJr.jpg" alt="Tienda Carl's Jr." class="img-fluid rounded mb-3" />
               <p>
-                Carl's Jr. es una cadena de restaurantes de comida rápida, famosa por sus hamburguesas estilo americano, acompañadas de papas fritas crujientes y bebidas refrescantes. Cada hamburguesa se prepara con carne de alta calidad, pan recién horneado y una variedad de ingredientes frescos y sabrosos. Con un menú que incluye opciones clásicas como la "Western Bacon Cheeseburger" y la "Super Star," este restaurante promete una experiencia deliciosa para los amantes de las hamburguesas. Además, el ambiente informal y moderno hace que Carl's Jr. sea un lugar ideal para disfrutar en familia o con amigos.
+                Carl's Jr. es una cadena de restaurantes de comida rápida, famosa por sus hamburguesas estilo americano, acompañadas de papas fritas crujientes y bebidas refrescantes...
               </p>
               <a href="https://www.carlsjr.es" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
             </div>
@@ -62,9 +64,8 @@
 
       <!-- Restaurante 2 -->
       <div class="col">
-        <div class="shadow p-3 rounded h-100 text-center p-3">
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
           <img src="AmazoniaWok.png" alt="Amazonia Wok" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalAmazoniaWok" />
-         
         </div>
       </div>
 
@@ -79,7 +80,7 @@
             <div class="modal-body">
               <img src="tiendaAmazonia.jpg" alt="Tienda Amazonia" class="img-fluid rounded mb-3" />
               <p>
-                Amazonia Wok ofrece una experiencia culinaria única que fusiona lo mejor de la cocina asiática con sabores tropicales. Con un buffet libre y una amplia selección de platos orientales, podrás disfrutar de sushi fresco, sopas tailandesas, yakimeshi, y mucho más. La especialidad de la casa es el wok, donde podrás elegir los ingredientes y prepararlos al gusto. Este restaurante es ideal para los que buscan una experiencia interactiva y variada, con un ambiente acogedor y moderno, perfecto para cenas familiares o celebraciones especiales.
+                Amazonia Wok ofrece una experiencia culinaria única que fusiona lo mejor de la cocina asiática con sabores tropicales...
               </p>
               <a href="https://www.amazoniawok.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
             </div>
@@ -89,9 +90,8 @@
 
       <!-- Restaurante 3 -->
       <div class="col">
-        <div class="shadow p-3 rounded h-100 text-center p-3">
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
           <img src="KmPizza.png" alt="Kilómetros de Pizza" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalKmPizza" />
-         
         </div>
       </div>
 
@@ -106,7 +106,7 @@
             <div class="modal-body">
               <img src="tiendaKmPizza.jpg" alt="Tienda Kilómetros de Pizza" class="img-fluid rounded mb-3" />
               <p>
-                En Kilómetros de Pizza, la pizza no es solo una comida, sino una experiencia. Sus pizzas gourmet están hechas con masa madre, lo que les da un sabor único y crujiente. Pero lo que realmente las hace especiales es su formato: pizzas por metros, perfectas para compartir entre amigos o familiares. Con una amplia variedad de ingredientes frescos y opciones para todos los gustos, este restaurante es ideal para los amantes de la pizza que buscan algo fuera de lo común. Además, el ambiente es acogedor, ideal para una cena informal o una reunión especial.
+                En Kilómetros de Pizza, la pizza no es solo una comida, sino una experiencia...
               </p>
               <a href="https://kilometrosdepizza.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
             </div>
@@ -116,11 +116,10 @@
 
       <!-- Restaurante 4 -->
       <div class="col">
-  <div class="d-flex justify-content-center align-items-center shadow p-3 rounded h-100" style="height: 200px;">
-    <img src="100M.png" alt="100 Montaditos" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal100M" />
-  </div>
-</div>
-
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
+          <img src="100M.png" alt="100 Montaditos" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal100M" />
+        </div>
+      </div>
 
       <!-- Modal Restaurante 4 -->
       <div class="modal fade" id="modal100M" tabindex="-1" aria-labelledby="modal100MLabel" aria-hidden="true">
@@ -133,7 +132,7 @@
             <div class="modal-body">
               <img src="tienda100M.jpg" alt="Tienda 100 Montaditos" class="img-fluid rounded mb-3" />
               <p>
-                100 Montaditos es uno de los restaurantes más populares en España, conocido por su amplio menú de montaditos, tapas y cervezas a precios accesibles. El ambiente es informal y relajado, ideal para disfrutar de una comida rápida pero sabrosa en cualquier momento del día. Los montaditos son pequeños bocadillos con una gran variedad de ingredientes, desde los más tradicionales hasta opciones más innovadoras. Este restaurante es perfecto para reuniones informales con amigos, disfrutar de la comida en un ambiente cálido y amistoso.
+                100 Montaditos es uno de los restaurantes más populares en España, conocido por su amplio menú...
               </p>
               <a href="https://spain.100montaditos.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
             </div>
@@ -143,9 +142,8 @@
 
       <!-- Restaurante 5 -->
       <div class="col">
-        <div class="shadow p-3 rounded h-100 text-center p-3">
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
           <img src="HamNostra.png" alt="Hamburguesa Nostra" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalHamNostra" />
-         
         </div>
       </div>
 
@@ -160,7 +158,7 @@
             <div class="modal-body">
               <img src="tiendaHamNostra.jpg" alt="Tienda Hamburguesa Nostra" class="img-fluid rounded mb-3" />
               <p>
-                Hamburguesa Nostra es un lugar donde se puede disfrutar de hamburguesas gourmet elaboradas con carne seleccionada, ingredientes frescos y pan artesano. Este restaurante se destaca por su dedicación en la creación de hamburguesas únicas y sabrosas, utilizando ingredientes locales y de alta calidad. La variedad de combinaciones es impresionante, con opciones para todos los gustos, desde las más clásicas hasta las más innovadoras. Además, el ambiente moderno y acogedor hace que cada visita sea una experiencia única.
+                Hamburguesa Nostra es un lugar donde se puede disfrutar de hamburguesas gourmet elaboradas con carne seleccionada...
               </p>
               <a href="https://hamburguesanostra.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
             </div>
@@ -170,9 +168,8 @@
 
       <!-- Restaurante 6 -->
       <div class="col">
-        <div class="shadow p-3 rounded h-100 text-center p-3">
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
           <img src="ElKiosko.png" alt="El Kiosko" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalElKiosko" />
-         
         </div>
       </div>
 
@@ -196,14 +193,13 @@
     </section>
   </main>
 
-   <footer class="bg-dark text-danger text-center py-3 mt-5">
+  <footer class="bg-black text-danger text-center py-3 mt-5">
   <p>&copy; 2025 X-Madrid. Todos los derechos reservados.</p>
     <p>Síguenos en nuestras redes sociales:</p>
     <a href="https://x.com/xmadrid6" target="_blank" class="text-danger mx-2">Twitter</a>
     <a href="https://www.facebook.com/pages/Centro%20Comercial%20X-Madrid/104536784507047/#" target="_blank" class="text-danger mx-2">Facebook</a>
     <a href="https://www.instagram.com/xmadrid_/?hl=es" target="_blank" class="text-danger mx-2">Instagram</a>
 </footer>
-
   <!-- Bootstrap JS (opcional) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
