@@ -1,82 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Visítanos - X-Madrid</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Malayalam:wght@100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tauri&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="icon" href="logo2.webp" type="image/jpeg" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>  
-<header class="bg-black py-4">
-  <div class="row align-items-center">
-    <div class="col-2 text-start">
-      <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-75" />
-    </div>
-    <div class="col-8 text-center">
-      <h1 class="mb-0 text-danger fw-bold">VISÍTANOS</h1>
-    </div>
-    <div class="col-2"></div> <!-- Espacio vacío para equilibrar -->
-  </div>
-</header>
+  <meta charset="UTF-8" />
+  <title>Visítanos - X-Madrid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="logo2.webp" type="image/jpeg" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Estilo personalizado para el carousel -->
+  <style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-image: none;
+    }
+  </style>
+</head>
 <body class="bg-dark text-white">
 
-  
+  <!-- HEADER -->
+  <header class="bg-black py-4">
+    <div class="row align-items-center">
+      <div class="col-2 text-end">
+        <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-75" />
+      </div>
+      <div class="col-8 text-center">
+        <h1 class="mb-0 text-danger fw-bold">VISÍTANOS</h1>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </header>
 
-   <main class="container py-4">
+  <main class="container py-4">
 
-  <!-- Fila 1: Horarios y Dirección -->
-  <div class="row mb-4">
-    <div class="col-md-6">
-      <section>
+    <!-- Horarios y Dirección -->
+    <div class="row mb-4">
+      <div class="col-md-6">
         <h3><i class="fa-solid fa-clock"></i> Horarios</h3>
         <p><strong>Tiendas:</strong> Lunes a sábado de 10:00 a 22:00</p>
-        <p><strong>Restauración y ocio:</strong> Domingo a jueves de 12:00 a 00:00 / Viernes <br>y sábado hasta la 1:00</p>
-      </section>
-    </div>
-    <div class="col-md-6">
-      <section>
+        <p><strong>Restauración y ocio:</strong> Domingo a jueves de 12:00 a 00:00 / Viernes y sábado hasta la 1:00</p>
+      </div>
+      <div class="col-md-6">
         <h3><i class="fa-solid fa-location-dot"></i> Dirección</h3>
         <p>Avenida de la Industria, 4, 28947 Fuenlabrada, Madrid, España</p>
-      </section>
+      </div>
     </div>
-  </div>
 
-  <!-- Fila 2: Datos de contacto y Transporte público -->
-  <div class="row mb-4">
-    <div class="col-md-6">
-      <section>
+    <!-- Contacto y Transporte -->
+    <div class="row mb-4">
+      <div class="col-md-6">
         <h3><i class="fa-solid fa-phone"></i> Datos de contacto</h3>
         <p>Teléfono: +34 912 345 678</p>
         <p>Email: info@x-madrid.com</p>
-      </section>
-    </div>
-    <div class="col-md-6">
-      <section>
+      </div>
+      <div class="col-md-6">
         <h3><i class="fa-solid fa-train-subway"></i> Transporte público</h3>
         <ul>
           <li><strong>Metro:</strong> Línea 12 (Metrosur) - Estación “Parque de los Estados”</li>
           <li><strong>Autobuses:</strong> Líneas 3, 4, 491, 492, 493</li>
           <li><strong>Cercanías:</strong> Línea C-5 - Estación “Fuenlabrada”</li>
         </ul>
-      </section>
+      </div>
     </div>
-  </div>
 
-  <!-- Fila 3: Parking y Servicios -->
-  <div class="row mb-4">
-    <div class="col-md-6">
-      <section>
+    <!-- Parking y Servicios -->
+    <div class="row mb-4">
+      <div class="col-md-6">
         <h3><i class="fa-solid fa-car"></i> Información del parking</h3>
-        <p>Más de 2.000 plazas de aparcamiento gratuito. Plazas adaptadas <br>para personas con movilidad reducida, familias, y motos.</p>
-      </section>
-    </div>
-    <div class="col-md-6">
-      <section>
+        <p>Más de 2.000 plazas de aparcamiento gratuito. Plazas adaptadas para personas con movilidad reducida, familias y motos.</p>
+      </div>
+      <div class="col-md-6">
         <h3><i class="fa-solid fa-lightbulb"></i> Servicios disponibles</h3>
         <ul>
           <li><strong>WiFi gratuito:</strong> Conéctate en todo el centro sin necesidad de registro.</li>
@@ -85,56 +81,64 @@
           <li><strong>Zonas de descanso:</strong> Áreas con sofás y asientos para relajarte.</li>
           <li><strong>Otros servicios:</strong> Cajeros automáticos, aseos accesibles, cambiadores de bebé, consignas y servicio de objetos perdidos.</li>
         </ul>
-      </section>
-    </div>
-  </div>
-
-  <!-- Mapa (sin cambios) -->
-  <section class="mb-5">
-    <h3><i class="fa-solid fa-map"></i> Mapa de localización</h3>
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.google.com/maps/dir//C.+Oslo,+53,+28922+Alcorc%C3%B3n,+Madrid/@40.3419206,-3.9306861,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd42297225ee4d61:0x7c7ec10edc6e7fbd!2m2!1d-3.8482852!2d40.3419498?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-  </section>
-
-  <!-- Plano (sin cambios) -->
-  <section class="mb-5">
-    <h3><i class="fa-solid fa-store"></i> Plano de los establecimientos</h3>
-    <div id="planoCarrusel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item">
-          <img src="plantaP.jpg" class="d-block w-100" style="max-height: 400px; object-fit: contain;" alt="Plano Planta Primera">
-        </div>
-        <div class="carousel-item active">
-          <img src="plantaCalle.jpg" class="d-block w-100" style="max-height: 400px; object-fit: contain;" alt="Plano Planta Calle">
-        </div>
-        <div class="carousel-item">
-          <img src="plantaB.jpg" class="d-block w-100" style="max-height: 400px; object-fit: contain;" alt="Plano Planta Baja">
-        </div>
       </div>
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#planoCarrusel" data-bs-slide="prev">
-        <span><i class="fa-solid fa-chevron-left fs-3 text-dark"></i></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#planoCarrusel" data-bs-slide="next">
-        <span><i class="fa-solid fa-chevron-right fs-3 text-dark"></i></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
     </div>
-  </section>
 
-</main>
+    <!-- Mapa -->
+    <section class="mb-5">
+      <h3><i class="fa-solid fa-map py-5"></i> Mapa de localización</h3>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.google.com/maps/dir//C.+Oslo,+53,+28922+Alcorc%C3%B3n,+Madrid" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
 
- <footer class="bg-black text-danger text-center py-3 mt-5">
-  <p>&copy; 2025 X-Madrid. Todos los derechos reservados.</p>
+    <!-- Plano carrusel -->
+    <section class="mb-5">
+      <h3><i class="fa-solid fa-store py-5"></i> Plano de los establecimientos</h3>
+      <div id="planoCarrusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="plantaP.jpg" class="d-block w-100" style="max-height: 400px; object-fit: contain;" alt="Plano Planta Primera">
+          </div>
+          <div class="carousel-item active">
+            <img src="plantaCalle.jpg" class="d-block w-100" style="max-height: 400px; object-fit: contain;" alt="Plano Planta Calle">
+          </div>
+          <div class="carousel-item">
+            <img src="plantaB.jpg" class="d-block w-100" style="max-height: 400px; object-fit: contain;" alt="Plano Planta Baja">
+          </div>
+        </div>
+
+        <!-- Botones de control personalizados -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#planoCarrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon d-flex justify-content-center align-items-center" aria-hidden="true">
+            <i class="fa-solid fa-chevron-left fs-1 text-danger"></i>
+          </span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#planoCarrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon d-flex justify-content-center align-items-center" aria-hidden="true">
+            <i class="fa-solid fa-chevron-right fs-1 text-danger"></i>
+          </span>
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black text-danger text-center py-3 mt-5">
+    <p>&copy; 2025 X-Madrid. Todos los derechos reservados.</p>
     <p>Síguenos en nuestras redes sociales:</p>
-    <a href="https://x.com/xmadrid6" target="_blank" class="text-danger mx-2">Twitter</a>
-    <a href="https://www.facebook.com/pages/Centro%20Comercial%20X-Madrid/104536784507047/#" target="_blank" class="text-danger mx-2">Facebook</a>
-    <a href="https://www.instagram.com/xmadrid_/?hl=es" target="_blank" class="text-danger mx-2">Instagram</a>
-</footer>
- 
+    <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+      <a href="https://x.com/xmadrid6" target="_blank" style="text-decoration: none;">
+        <img src="logotwitter.png" alt="Twitter" style="width: 30px; height: 30px; filter: brightness(0) saturate(100%) invert(13%) sepia(85%) saturate(6512%) hue-rotate(357deg) brightness(92%) contrast(99%);">
+      </a>
+      <a href="https://www.instagram.com/xmadrid_/?hl=es" target="_blank" style="text-decoration: none;">
+        <img src="logoinstagram.png" alt="Instagram" style="width: 30px; height: 30px; filter: brightness(0) saturate(100%) invert(13%) sepia(85%) saturate(6512%) hue-rotate(357deg) brightness(92%) contrast(99%);">
+      </a>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
