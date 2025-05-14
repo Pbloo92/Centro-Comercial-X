@@ -5,40 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inicio</title>
   <link rel="icon" href="logo2.webp" type="image/jpeg" />
-  
+
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
-  
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
-
-  <!-- Estilo personalizado para el carousel -->
-  <style>
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      background-image: none;
-    }
-  </style>
 </head>
-<body class="m-0 p-0 bg-dark">
+<body class="m-0 p-0 bg-dark" style="font-family: 'Oswald', sans-serif;">
 
-  <!-- Sección HERO con video de fondo -->
+  <!-- HERO con video -->
   <section class="position-relative vh-100 overflow-hidden">
     <video autoplay muted loop playsinline class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
       <source src="presentacion.mp4" type="video/mp4">
     </video>
-
     <div class="position-relative z-1 d-flex flex-column justify-content-center align-items-center text-white text-center h-100 px-3 bg-dark bg-opacity-50">
       <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid mb-3" style="max-width: 150px;">
-      <h1 class="display-4 fw-bold" style="font-family: 'Oswald', sans-serif;">Centro Comercial X-Madrid</h1>
-      <p class="lead">
-        X-Madrid es un espacio innovador de compras, ocio y restauración ubicado en Alcorcón, Madrid. Con una arquitectura moderna y urbana, ofrece una experiencia diferente que combina tiendas únicas, gastronomía variada y propuestas de entretenimiento para todos los públicos.
-      </p>
+      <h1 class="display-4 fw-bold">Centro Comercial X-Madrid</h1>
+      <p class="lead">X-Madrid es un espacio innovador de compras, ocio y restauración ubicado en Alcorcón, Madrid. Con una arquitectura moderna y urbana, ofrece una experiencia diferente que combina tiendas únicas, gastronomía variada y propuestas de entretenimiento para todos los públicos.</p>
     </div>
   </section>
 
@@ -61,30 +48,82 @@
         </div>
       </div>
 
-      <!-- Botones de control con flechas -->
       <button class="carousel-control-prev" type="button" data-bs-target="#planoCarrusel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon d-flex justify-content-center align-items-center" aria-hidden="true">
+        <span class="d-flex justify-content-center align-items-center">
           <i class="fa-solid fa-chevron-left fs-1 text-danger"></i>
         </span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#planoCarrusel" data-bs-slide="next">
-        <span class="carousel-control-next-icon d-flex justify-content-center align-items-center" aria-hidden="true">
+        <span class="d-flex justify-content-center align-items-center">
           <i class="fa-solid fa-chevron-right fs-1 text-danger"></i>
         </span>
       </button>
     </div>
   </section>
 
-  <!-- footer -->
+  <!-- DESTACADOS -->
+  <section class="container py-5">
+    <h3 class="text-center mb-4 text-danger fw-bold"><i class="fa-solid fa-star"></i> DESTACADOS</h3>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card bg-secondary text-white h-100 shadow-lg text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-bolt fa-2x mb-3 text-danger"></i>
+            <h5 class="fw-bold">Ocio extremo</h5>
+            <p>Vive emociones fuertes en nuestras zonas de escalada, surf y mucho más.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-secondary text-white h-100 shadow-lg text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-utensils fa-2x mb-3 text-danger"></i>
+            <h5 class="fw-bold">Gastronomía</h5>
+            <p>Degusta una oferta gastronómica internacional con opciones para todos los gustos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-secondary text-white h-100 shadow-lg text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-tags fa-2x mb-3 text-danger"></i>
+            <h5 class="fw-bold">Tiendas exclusivas</h5>
+            <p>Encuentra las últimas tendencias en moda, deporte, tecnología y más.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-secondary text-white h-100 shadow-lg text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-calendar-check fa-2x mb-3 text-danger"></i>
+            <h5 class="fw-bold">Eventos</h5>
+            <p>Consulta nuestras actividades semanales y eventos especiales para toda la familia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER CTA -->
+  <section class="position-relative py-5" style="background: url('bannerllamada.jpg') center center / cover no-repeat;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-75"></div>
+    <div class="container position-relative text-center text-white">
+      <h2 class="fw-bold mb-4">¡Ven a descubrir X-Madrid!</h2>
+      <p class="lead mb-4">Una experiencia diferente te espera: tiendas exclusivas, ocio extremo y gastronomía para todos los gustos.</p>
+      <a href="visitanos.html" class="btn btn-danger btn-lg fw-bold"><i class="fa-solid fa-location-dot me-2"></i>Visítanos ahora</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer class="bg-black text-danger text-center py-3 mt-5">
     <p>&copy; 2025 X-Madrid. Todos los derechos reservados.</p>
     <p>Síguenos en nuestras redes sociales:</p>
-    <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
-      <a href="https://x.com/xmadrid6" target="_blank" style="text-decoration: none;">
-        <img src="logotwitter.png" alt="Twitter" style="width: 30px; height: 30px; filter: brightness(0) saturate(100%) invert(13%) sepia(85%) saturate(6512%) hue-rotate(357deg) brightness(92%) contrast(99%);">
+    <div class="d-flex justify-content-center gap-3">
+      <a href="https://x.com/xmadrid6" target="_blank">
+        <img src="logotwitter.png" alt="Twitter" class="img-fluid" style="width:30px; height:30px; filter: brightness(0) saturate(100%) invert(13%) sepia(85%) saturate(6512%) hue-rotate(357deg) brightness(92%) contrast(99%);">
       </a>
-      <a href="https://www.instagram.com/xmadrid_/?hl=es" target="_blank" style="text-decoration: none;">
-        <img src="logoinstagram.png" alt="Instagram" style="width: 30px; height: 30px; filter: brightness(0) saturate(100%) invert(13%) sepia(85%) saturate(6512%) hue-rotate(357deg) brightness(92%) contrast(99%);">
+      <a href="https://www.instagram.com/xmadrid_/?hl=es" target="_blank">
+        <img src="logoinstagram.png" alt="Instagram" class="img-fluid" style="width:30px; height:30px; filter: brightness(0) saturate(100%) invert(13%) sepia(85%) saturate(6512%) hue-rotate(357deg) brightness(92%) contrast(99%);">
       </a>
     </div>
   </footer>
