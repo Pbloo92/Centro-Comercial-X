@@ -29,46 +29,90 @@
     </div>
 </header>
 
-<body class="bg-dark">
+<body class="bg-dark" >
 
 
 <main class="container py-4 text-white">
 
-  <!-- Fila 1: Horarios y Situación -->
-  <div class="row mb-4">
-    <div class="col-md-6">
-      <section>
-        <h2><i class="fa-solid fa-clock"></i> Horarios</h2>
-        <p>Lunes a domingo: 11:30 - 00:30</p>
-      </section>
-    </div>
-    <div class="col-md-6">
-      <section>
-        <h2><i class="fa-solid fa-location-dot"></i> Situación</h2>
-        <p>Planta baja del centro comercial, zona ocio.</p>
-      </section>
-    </div>
-  </div>
 
-  <!-- Fila 2: Salas y Cafetería -->
-  <div class="row mb-4">
-    <div class="col-md-6">
-      <section>
-        <h2><i class="fa-solid fa-door-open"></i> Salas</h2>
-        <ul>
-          <li>8 salas equipadas con tecnología 4K y sonido Dolby Atmos</li>
-          <li>1 sala VIP con butacas reclinables</li>
-          <li>1 sala infantil con juegos</li>
+   <!-- DESTACADOS -->
+  <section class="container py-5" style="font-family: 'Oswald', sans-serif;">
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card bg-secondary text-white h-100 shadow-lg text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-clock fa-2x mb-3 text-danger"></i>
+            <h5 class="fw-bold">Horarios</h5>
+            <p><strong>Lunes - Jueves:</strong> 15:45 – 01:00h</p>
+        <p><strong>Viernes:</strong> 15:45 – 03:00h</p>
+        <p><strong>Sábado:</strong> 11:30 – 03:00h</p>
+        <p><strong>Domingo:</strong> 11:30 – 01:00h</p>
+        <p>Amplio horario para disfrutar de los últimos estrenos, con funciones nocturnas ideales para los fines de semana.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-secondary text-white h-100 shadow-lg text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-location-dot fa-2x mb-3 text-danger"></i>
+            <h5 class="fw-bold">Situación</h5>
+             <p>Nos encontrarás en la planta baja del centro comercial X-Madrid, justo en la zona de ocio.</p>
+        <p>Accesible en transporte público y con fácil aparcamiento gratuito durante 3 horas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-secondary text-white h-100 shadow-lg text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-chair fa-2x mb-3 text-danger"></i>
+            <h5 class="fw-bold">Salas</h5>
+            <ul class="list-unstyled">
+          <li>8 salas con proyección digital 4K y sonido envolvente Dolby Atmos.</li>
+          <li>1 sala VIP con butacas reclinables de lujo y servicio personalizado.</li>
+          <li>1 sala infantil con asientos especiales, juegos y contenidos adaptados.</li>
         </ul>
-      </section>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-secondary text-white h-100 shadow-lg text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-mug-hot fa-2x mb-3 text-danger"></i>
+            <h5 class="fw-bold">Cafetería</h5>
+            <p>Relájate antes o después de la función en nuestra cafetería con ambiente moderno.</p>
+        <p>Ofrecemos snacks, palomitas recién hechas, bebidas frías y calientes, así como opciones sin gluten y veganas. ¡Perfecto para todos los gustos!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- OCINE URBAN - Experiencia Premium -->
+<section class="my-5">
+  <h2 class="text-center text-danger mb-4"><i class="fa-solid fa-star"></i> OCINE URBAN</h2>
+  <div class="row align-items-center">
+    <div class="col-md-6 mb-3">
+      <img src="Cine.jpg" alt="Sala OCINE URBAN" class="img-fluid rounded shadow">
     </div>
     <div class="col-md-6">
-      <section>
-        <h2><i class="fa-solid fa-mug-hot"></i> Cafetería</h2>
-        <p>Disfruta de snacks, palomitas, bebidas y opciones sin gluten en nuestro bar antes o después de la película.</p>
-      </section>
+      <p class="text-white">
+        <strong>OCINE URBAN</strong> es el espacio ideal para vivir una experiencia más personalizada y de calidad.
+        Un total de once pantallas, nueve de ellas con butacas completamente reclinables y dos salas urban con una decoración
+        atrevida, como nuestros sofás exclusivos para que nuestros clientes urban se sientan como en casa.
+      </p>
+      <p class="text-white">
+        OCINE URBAN ofrece la posibilidad de reservar salas con una programación diferente y a la carta, pases en versión original
+        subtitulados, eventos afterwork y el singular sello de identidad de las salas, polivalentes y perfectas para reuniones
+        corporativas, eventos de networking o ceremonias de entrega de premios.
+      </p>
+      <p class="text-white">
+        Un vestíbulo rompedor, salas de espera únicas y una barra de bar en la que, junto a los productos convencionales,
+        se sumarán propuestas tan singulares como <em>cocktails de cine</em>.
+      </p>
     </div>
   </div>
+</section>
 
 
 
@@ -79,43 +123,14 @@
     <ul id="cartelera"></ul>
   <!-- Botón Entradas -->
   <section class="mb-5 ">
-    <a class="btn btn-danger" href="https://www.cinesa.es" target="_blank">
+    <a class="btn btn-danger" href="https://www.ocineurbanxmadrid.es/" target="_blank">
       <i class="fa-solid fa-ticket"></i> Comprar entradas
     </a>
   </section>
 
-  <div class="container my-5">
-    <h2 class="text-center mb-4">Actividades</h2>
-    <div id="contenedorTarjetas" class="row row-cols-1 row-cols-md-3 g-4"></div>
-  </div>
 
-  <!-- Inserta el JSON directamente como una variable -->
-  <script>
-    const datos = [
-      { "nombre": "X-Madrid", "ubicacion": "Alcorcón", "actividad": "Cine" },
-      { "nombre": "X-Madrid", "ubicacion": "Alcorcón", "actividad": "Surf indoor" },
-      { "nombre": "X-Madrid", "ubicacion": "Alcorcón", "actividad": "Escalada" }
-    ];
 
-    const contenedor = document.getElementById("contenedorTarjetas");
 
-    datos.forEach(item => {
-      const tarjeta = document.createElement("div");
-      tarjeta.className = "col";
-      tarjeta.innerHTML = `
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">${item.actividad}</h5>
-            <p class="card-text">
-              <strong>Lugar:</strong> ${item.nombre}<br>
-              <strong>Ubicación:</strong> ${item.ubicacion}
-            </p>
-          </div>
-        </div>
-      `;
-      contenedor.appendChild(tarjeta);
-    });
-  </script>
 </main>
 
  <!-- footer -->
