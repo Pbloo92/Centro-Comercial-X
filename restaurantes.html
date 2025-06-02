@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,38 +9,43 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Oswald:wght@200..700&family=Rubik:wght@300;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Oswald:wght@200..700&family=Rubik:wght@300;900&display=swap"
+    rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
 
   <!-- Favicon -->
-  <link rel="icon" href="logo2.webp" type="image/webp" />
+  <link rel="icon" href="fotos/logo2.webp" type="image/webp" />
 </head>
 
 <header class="bg-black py-4">
-    <div class="row align-items-center">
-      <div class="col-2 text-end"> <!-- Usamos text-end para alinear a la derecha -->
-        <img src="logo2.webp" alt="Logo X-Madrid" class="img-fluid w-50" />
-      </div>
-      <div class="col-8 text-center">
-        <h1 class="mb-0 text-danger fw-bold">RESTAURANTES</h1>
-      </div>
-      <div class="col-2"></div> <!-- Espacio vacío para equilibrar -->
+  <div class="row align-items-center">
+    <div class="col-2 text-end"> <!-- Usamos text-end para alinear a la derecha -->
+      <img src="fotos/logo2.webp" alt="Logo X-Madrid" class="img-fluid w-50" />
     </div>
+    <div class="col-8 text-center">
+      <h1 class="mb-0 text-danger fw-bold">RESTAURANTES</h1>
+    </div>
+    <div class="col-2"></div> <!-- Espacio vacío para equilibrar -->
+  </div>
 </header>
 
 <body class="bg-dark">
 
-  
+
 
   <main class="container my-5">
     <section class="row row-cols-1 row-cols-md-3 g-4">
 
       <!-- Restaurante 1 -->
       <div class="col">
-        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
-          <img src="CarlsJr.png" alt="Carl's Jr." class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalCarlsJr" />
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100"
+          style="height: 200px;">
+          <img src="fotos/CarlsJr.png" alt="Carl's Jr." class="img-fluid" data-bs-toggle="modal"
+            data-bs-target="#modalCarlsJr" />
         </div>
       </div>
 
@@ -52,9 +58,10 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img src="tiendaCarlsJr.jpg" alt="Tienda Carl's Jr." class="img-fluid rounded mb-3" />
+              <img src="fotos/tiendaCarlsJr.jpg" alt="Tienda Carl's Jr." class="img-fluid rounded mb-3" />
               <p>
-                Carl's Jr. es una cadena de restaurantes de comida rápida, famosa por sus hamburguesas estilo americano, acompañadas de papas fritas crujientes y bebidas refrescantes...
+                Carl's Jr. es una cadena de restaurantes de comida rápida, famosa por sus hamburguesas estilo americano,
+                acompañadas de papas fritas crujientes y bebidas refrescantes...
               </p>
               <a href="https://www.carlsjr.es" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
             </div>
@@ -64,13 +71,16 @@
 
       <!-- Restaurante 2 -->
       <div class="col">
-        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
-          <img src="AmazoniaWok.png" alt="Amazonia Wok" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalAmazoniaWok" />
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100"
+          style="height: 200px;">
+          <img src="fotos/AmazoniaWok.png" alt="Amazonia Wok" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal"
+            data-bs-target="#modalAmazoniaWok" />
         </div>
       </div>
 
       <!-- Modal Restaurante 2 -->
-      <div class="modal fade" id="modalAmazoniaWok" tabindex="-1" aria-labelledby="modalAmazoniaWokLabel" aria-hidden="true">
+      <div class="modal fade" id="modalAmazoniaWok" tabindex="-1" aria-labelledby="modalAmazoniaWokLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -78,11 +88,13 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img src="tiendaAmazonia.jpg" alt="Tienda Amazonia" class="img-fluid rounded mb-3" />
+              <img src="fotos/tiendaAmazonia.jpg" alt="Tienda Amazonia" class="img-fluid rounded mb-3" />
               <p>
-                Amazonia Wok ofrece una experiencia culinaria única que fusiona lo mejor de la cocina asiática con sabores tropicales...
+                Amazonia Wok ofrece una experiencia culinaria única que fusiona lo mejor de la cocina asiática con
+                sabores tropicales...
               </p>
-              <a href="https://www.amazoniawok.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+              <a href="https://www.amazoniawok.com" target="_blank" class="btn btn-outline-primary">Visitar sitio
+                oficial</a>
             </div>
           </div>
         </div>
@@ -90,8 +102,10 @@
 
       <!-- Restaurante 3 -->
       <div class="col">
-        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
-          <img src="KmPizza.png" alt="Kilómetros de Pizza" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalKmPizza" />
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100"
+          style="height: 200px;">
+          <img src="fotos/KmPizza.png" alt="Kilómetros de Pizza" class="img-fluid logo mx-auto mb-2"
+            data-bs-toggle="modal" data-bs-target="#modalKmPizza" />
         </div>
       </div>
 
@@ -104,11 +118,12 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img src="tiendaKmPizza.jpg" alt="Tienda Kilómetros de Pizza" class="img-fluid rounded mb-3" />
+              <img src="fotos/tiendaKmPizza.jpg" alt="Tienda Kilómetros de Pizza" class="img-fluid rounded mb-3" />
               <p>
                 En Kilómetros de Pizza, la pizza no es solo una comida, sino una experiencia...
               </p>
-              <a href="https://kilometrosdepizza.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+              <a href="https://kilometrosdepizza.com" target="_blank" class="btn btn-outline-primary">Visitar sitio
+                oficial</a>
             </div>
           </div>
         </div>
@@ -116,8 +131,10 @@
 
       <!-- Restaurante 4 -->
       <div class="col">
-        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
-          <img src="100M.png" alt="100 Montaditos" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal100M" />
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100"
+          style="height: 200px;">
+          <img src="fotos/100M.png" alt="100 Montaditos" class="img-fluid" data-bs-toggle="modal"
+            data-bs-target="#modal100M" />
         </div>
       </div>
 
@@ -130,11 +147,12 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img src="tienda100M.jpg" alt="Tienda 100 Montaditos" class="img-fluid rounded mb-3" />
+              <img src="fotos/tienda100M.jpg" alt="Tienda 100 Montaditos" class="img-fluid rounded mb-3" />
               <p>
                 100 Montaditos es uno de los restaurantes más populares en España, conocido por su amplio menú...
               </p>
-              <a href="https://spain.100montaditos.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+              <a href="https://spain.100montaditos.com" target="_blank" class="btn btn-outline-primary">Visitar sitio
+                oficial</a>
             </div>
           </div>
         </div>
@@ -142,13 +160,16 @@
 
       <!-- Restaurante 5 -->
       <div class="col">
-        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
-          <img src="HamNostra.png" alt="Hamburguesa Nostra" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalHamNostra" />
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100"
+          style="height: 200px;">
+          <img src="fotos/HamNostra.png" alt="Hamburguesa Nostra" class="img-fluid logo mx-auto mb-2"
+            data-bs-toggle="modal" data-bs-target="#modalHamNostra" />
         </div>
       </div>
 
       <!-- Modal Restaurante 5 -->
-      <div class="modal fade" id="modalHamNostra" tabindex="-1" aria-labelledby="modalHamNostraLabel" aria-hidden="true">
+      <div class="modal fade" id="modalHamNostra" tabindex="-1" aria-labelledby="modalHamNostraLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -156,11 +177,13 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img src="tiendaHamNostra.jpg" alt="Tienda Hamburguesa Nostra" class="img-fluid rounded mb-3" />
+              <img src="fotos/tiendaHamNostra.jpg" alt="Tienda Hamburguesa Nostra" class="img-fluid rounded mb-3" />
               <p>
-                Hamburguesa Nostra es un lugar donde se puede disfrutar de hamburguesas gourmet elaboradas con carne seleccionada...
+                Hamburguesa Nostra es un lugar donde se puede disfrutar de hamburguesas gourmet elaboradas con carne
+                seleccionada...
               </p>
-              <a href="https://hamburguesanostra.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
+              <a href="https://hamburguesanostra.com" target="_blank" class="btn btn-outline-primary">Visitar sitio
+                oficial</a>
             </div>
           </div>
         </div>
@@ -168,8 +191,10 @@
 
       <!-- Restaurante 6 -->
       <div class="col">
-        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100" style="height: 200px;">
-          <img src="ElKiosko.png" alt="El Kiosko" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal" data-bs-target="#modalElKiosko" />
+        <div class="d-flex justify-content-center align-items-center bg-white text-dark shadow p-3 rounded h-100"
+          style="height: 200px;">
+          <img src="fotos/ElKiosko.png" alt="El Kiosko" class="img-fluid logo mx-auto mb-2" data-bs-toggle="modal"
+            data-bs-target="#modalElKiosko" />
         </div>
       </div>
 
@@ -182,7 +207,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img src="tiendaElkiosko.webp" alt="Tienda El Kiosko" class="img-fluid rounded mb-3" />
+              <img src="fotos/tiendaElkiosko.webp" alt="Tienda El Kiosko" class="img-fluid rounded mb-3" />
               <p>Cocina casual con toques modernos, platos para compartir y ambiente acogedor.</p>
               <a href="https://elkiosko.com" target="_blank" class="btn btn-outline-primary">Visitar sitio oficial</a>
             </div>
@@ -193,20 +218,23 @@
     </section>
   </main>
 
-   <footer class="bg-black text-danger text-center py-3 mt-5">
-  <p>&copy; 2025 X-Madrid. Todos los derechos reservados.</p>
-  <p>Síguenos en nuestras redes sociales:</p>
-  <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
-    <a href="https://x.com/xmadrid6" target="_blank" style="text-decoration: none;">
-      <img src="logotwitter.png" alt="Twitter" style="width: 30px; height: 30px; filter: brightness(0) saturate(100%) invert(13%) sepia(85%) saturate(6512%) hue-rotate(357deg) brightness(92%) contrast(99%);">
-    </a>
-    <a href="https://www.instagram.com/xmadrid_/?hl=es" target="_blank" style="text-decoration: none;">
-      <img src="logoinstagram.png" alt="Instagram" style="width: 30px; height: 30px; filter: brightness(0) saturate(100%) invert(13%) sepia(85%) saturate(6512%) hue-rotate(357deg) brightness(92%) contrast(99%);">
-    </a>
-  </div>
-</footer>
+  <!-- footer -->
+  <footer class="footer-custom text-danger text-center py-3 mt-5">
+    <p>&copy; 2025 X-Madrid. Todos los derechos reservados.</p>
+    <p>Síguenos en nuestras redes sociales:</p>
+    <div class="redes-sociales">
+      <a href="https://x.com/xmadrid6" target="_blank">
+        <img src="fotos/logotwitter.png" alt="Twitter" class="icono-red-social">
+      </a>
+      <a href="https://www.instagram.com/xmadrid_/?hl=es" target="_blank">
+        <img src="fotos/logoinstagram.png" alt="Instagram" class="icono-red-social">
+      </a>
+    </div>
+  </footer>
+
 
   <!-- Bootstrap JS (opcional) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

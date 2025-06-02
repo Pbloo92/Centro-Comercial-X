@@ -2,38 +2,45 @@
     {
       "titulo": "Thunderbolts*",
       "descripcion": "Thunderbolts* reúne un equipo poco convencional de antihéroes: Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster y John Walker.",
-      "cartel": "peliculaThunderbolts.jpg",
+      "cartel": "fotos/peliculaThunderbolts.jpg",
+        "director": "Jake Schreier",
       "enlace": "https://www.cinesa.es/peliculas/thunderboltsstar/HO00002038/"
     },
     {
       "titulo": "Una película de Minecraft",
       "descripcion": "Bienvenido al mundo de Minecraft, donde la creatividad no sólo ayuda a crear, sino que es esencial para la supervivencia.",
-      "cartel": "peliculaMinecraft.jpg",
+      "cartel": "fotos/peliculaMinecraft.jpg",
+      "director": "Jared Hess",
       "enlace": "https://www.cinesa.es/peliculas/una-pelicula-de-minecraft/HO00001976/"
     },
     {
       "titulo": "Tierras Perdidas",
       "descripcion": "Una reina (Amara Okereke), desesperada por encontrar la felicidad en el amor, envía a la poderosa bruja Gray Alys (Milla Jovovich) a las Tierras Perdidas, en busca de un poder mágico que permite a una persona transformarse en un hombre lobo.",
-      "cartel": "peliculaTierrasPerdidas.jpg",
+      "cartel": "fotos/peliculaTierrasPerdidas.jpg",
+       "director": "Paul W.S. Anderson",
       "enlace": "https://www.cinesa.es/peliculas/tierras-perdidas/HO00002207/"
     },
     {
       "titulo": "Until Dawn",
       "descripcion": "Un año después de la misteriosa desaparición de su hermana Melanie, Clover y sus amigas se dirigen al remoto valle donde desapareció en busca de respuestas.",
-      "cartel": "peliculaUntilDawn.jpg",
+      "cartel": "fotos/peliculaUntilDawn.jpg",
+       "director": "David F. Sandberg",
       "enlace": "https://www.cinesa.es/peliculas/until-dawn/HO00002115/"
     },
     {
       "titulo": "El Casoplón",
       "descripcion": "Toñi, Carlos y sus tres hijos están pasando el peor verano de sus vidas; sin vacaciones, encerrados en un piso de 50 metros cuadrados, ambos padres trabajando a tiempo completo… y para colmo, se estropea el aire acondicionado en plena ola de calor.",
-      "cartel": "peliculaElCasoplon.jpg",
+      "cartel": "fotos/peliculaElCasoplon.jpg",
+      "director": "Álvaro Fernández Armero",
       "enlace": "https://www.cinesa.es/peliculas/el-casoplon/HO00002128/"
     },
     {
       "titulo": "Amateur",
       "descripcion": "Cuando un agente de la CIA descubre que unos terroristas están detrás de la muerte de su prometida en un sospechoso accidente aéreo, recibe un entrenamiento especial para tramar su venganza.",
-      "cartel": "peliculaAmateur.jpg",
+      "cartel": "fotos/peliculaAmateur.jpg",
+      "director": "James Hawes",
       "enlace": "https://www.cinesa.es/peliculas/-amateur/HO00002080/"
+      
     }
   ]
   

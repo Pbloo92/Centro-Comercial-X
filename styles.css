@@ -1,0 +1,29 @@
+
+.footer-custom {
+  background-color: black;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.icono-red-social {
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+  height: 60px;
+}
